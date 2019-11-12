@@ -1,3 +1,16 @@
+// 获取当前季节
+window.onload = function(){
+    let time = new Date().getMonth() + 1;
+    if (time >= 2 && time < 5){
+        tagNameFun('body')[0].setAttribute("data-Season",'spring');
+    }else if(time >= 5 && time < 8){
+        tagNameFun('body')[0].setAttribute("data-Season",'summer');
+    }else if(time >= 8 && time < 11){
+        tagNameFun('body')[0].setAttribute("data-Season",'autumn');
+    }else if(time >= 11 && time < 2){
+        tagNameFun('body')[0].setAttribute("data-Season",'winter');
+    }
+};
 // 传递参数id获取dom节点
 function $(id) {
     return document.getElementById(id);
