@@ -1,0 +1,1025 @@
+/*去除默认样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+
+/*添加rem和页面字体*/
+html{
+	font-size: 100px;
+	font-family: "Source Han Sans CN";
+}
+
+/*导航栏*/
+.TOP{
+	width: 14rem;
+	height: .48rem;
+	font-size: .14rem;
+	background: #2B2B2B;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: .94rem;
+	margin-left: 1rem;
+	margin-top: .13rem;
+}
+.logo img{
+	width: 100%;
+}
+.TopRight{
+	float: right;
+	margin: .13rem 1rem .13rem 0;
+	font-size: 16px;
+	line-height: .22rem;
+}
+.TopRight a{
+	margin-left: .30rem;
+	color: #fff;
+	text-decoration:none;
+}
+.TopRight a:hover{
+	color:#00fffa;
+}
+
+/*轮播图*/
+.RotationChart{
+	position: relative;
+	width: 14rem;
+	height: 4.6rem;
+	background-image: url("images/RC.png");
+	background-size:100% 100%;
+	margin: auto;
+}
+.RotationChart img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#RC1{
+	display: block;
+}
+.RotationChart_dv{
+	position: absolute;
+    width: .86rem;
+    height: .25rem;
+    margin: auto;
+    background: #000000;
+    padding: 0 .13rem;
+    top:4.2rem;
+    left: 6.44rem;
+    border-radius: .25rem;
+}
+.RotationChart_qiu{
+	float: left;
+	width: .08rem;
+	height: .08rem;
+	margin: .08rem .049rem;
+	background-color: #a1a2ba;
+	border-radius: .08rem;
+}
+.RotationChart_qiu1{
+	float: left;
+	width: .4rem;
+	height: .08rem;
+	margin: .08rem .049rem;
+	background-color: #a1a2ba;
+	border-radius: .08rem;
+}
+
+/*通用标题*/
+.title1{
+	width: 3.4rem;
+	text-align: center;
+	margin: auto;
+	margin-top: .56rem;
+	font-weight: bold;
+	font-size: .24rem;
+	color: #00fffa;
+	background-image: url("images/标题背景-绿色.png");
+	background-size:100% 100%;
+}
+
+/*IT行业就业/职场痛点*/
+.Workplace{
+	overflow: hidden;
+	width: 14rem;
+	margin: auto;
+}
+.Workplace{
+	width: 14rem;
+	height: 7.32rem;
+	margin: auto;
+	background-image: url("images/背景1.png");
+	background-size:100% 100%;
+}
+.title2_father{
+	width: 5.65rem;
+	overflow: hidden;
+	margin: auto;
+	margin-top: .56rem;
+}
+.title2{
+	float: left;
+	width: 1.83rem;
+	height: .46rem;
+	line-height: .46rem;
+	text-align: center;
+	font-size: .18rem;
+	background-image: url("images/框1.png");
+	background-size: 100% 100%;
+	color: #ccc;
+}
+.title2-left{
+	margin-right: 1.98rem;
+	background-image: url("images/框.png");
+}
+.WorkplaceCenter{
+	padding: .3rem;
+	width: 8.4rem;
+	height: 3.7rem;
+	border-radius: 0.1rem;
+	border: 1px solid #ccc;
+	margin: auto;
+	margin-top: .35rem;
+	color: #fff;
+}
+.WorkplaceCP1{
+	font-size: .16rem;
+}
+.WorkplaceCP2{
+	margin-top: .14rem;
+	font-size: .14rem;
+}
+.WorkplaceCenterDiv{
+	float: left;
+	margin-top: .14rem;
+	width: 2.6rem;
+	height: 2.87rem;
+	overflow: hidden;
+	background-color: #fff;
+	color: #000;
+}
+.WorkplaceCenterDiv:nth-of-type(2){
+	margin-left:.29rem ;
+}
+.WorkplaceCenterDiv:nth-of-type(3){
+	margin-left:.29rem ;
+}
+.WorkplaceCenterDiv1{
+	width: 2.6rem;
+	height: 2.87rem;
+}
+.WorkplaceCenterDiv2{
+	width: 2.6rem;
+	height: 2.87rem;
+	position: relative;
+	overflow: hidden;
+	line-height: .16rem;
+}
+.WorkplaceCenterDiv1 span{
+	display: block;
+	width: 100%;
+	height: .05rem;
+	background-color: #13d2cc;
+}
+.WorkplaceCenterDiv_img img{
+
+}
+.WorkplaceCenterDiv1_p1{
+	text-align: center;
+	font-size: .15rem;
+	font-weight: bold;
+}
+.WorkplaceCenterDiv1_p2{
+	text-align: center;
+	font-size: .12rem;
+}
+.WorkplaceCenterDiv_L{
+	width: .96rem;
+	height: .23rem;
+	margin: .31rem .82rem;
+	text-align: center;
+	line-height: .23rem;
+	font-size: .12rem;
+	border-radius: .05rem;
+	background-color: #13d2cc;
+}
+.WorkplaceCenterDiv_img{
+	width: .92rem;
+	height: .92rem;
+	border: .1rem solid #ccc;
+	border-radius: .92rem;
+	margin: .23rem .74rem;
+	background-color: #fff;
+}
+.WorkplaceCenterDiv_img img{
+	display: block;
+	width: .62rem;
+	height: .62rem;
+	margin: .15rem auto;
+}
+.WorkplaceCenterDiv1_p3{
+	margin-top: .21rem;
+	text-align: center;
+	font-size: .16rem;
+	font-weight: bold;
+}
+.WorkplaceCenterDiv1_p4{
+	text-align: center;
+	font-size: .12rem;
+}
+.WorkplaceCenterDiv1_p5{
+	width: .43rem;
+	height: .03rem;
+	display: block;
+	margin: .08rem auto .16rem;
+	background-color: #dbdbdb;
+}
+.WorkplaceCenterDiv1_p6{
+	display: block;
+	margin: 0 .24rem;
+	font-size: .12rem;
+}
+.WorkplaceCenterDiv2 span{
+	display: block;
+	width: 100%;
+	height: .05rem;
+	background-color: #13d2cc;
+	position: absolute;
+	bottom: 0;
+}
+#WorkplaceCDF:hover #WorkplaceCDF1{
+	display: none;
+}
+#WorkplaceCDS:hover #WorkplaceCDS1{
+	display: none;
+}
+#WorkplaceCDT:hover #WorkplaceCDT1{
+	display: none;
+}
+.WorkplaceCenter2{
+	float: left;
+	position: relative;
+	width: 2.6rem;
+	height: 2.6rem;
+	background-color:#006bd7;
+	margin-top: .3rem;
+}
+#B1_T2_dv{
+	display: none;
+}
+.WorkplaceCenter2_fu{
+	position: absolute;
+	font-size: .18rem;
+	right: 0;
+	color: #000;
+	border-top: .4rem solid #fff;
+	border-left: .4rem solid transparent;
+}
+.WorkplaceCenter2_num{
+	position: absolute;
+	top: -.35rem;
+	left: -.14rem;
+	font-weight: bold;
+}
+.WorkplaceCenter2_dv1{
+	height: .4rem;
+	padding: .3rem;
+	text-align: center;
+	font-size: .15rem;
+	font-weight: bold;
+}
+.WorkplaceCenter2_dv2{
+	height: 1rem;
+	padding: .3rem;
+	background-color:#013db2 ;
+	font-size: .12rem;
+	line-height: .16rem;
+}
+.WorkplaceCenter2:nth-of-type(2){
+	background-color: #00D2cc;
+	margin-left: .29rem;
+	margin-top: 0;
+	height: 3.1rem;
+}
+.WorkplaceCenter2:nth-of-type(3){
+	background-color: #7b45fa;
+	margin-left: .29rem;
+	height: 2.6rem;
+}
+.WorkplaceCenter2:nth-of-type(2) .WorkplaceCenter2_dv2{
+	height: 1.7rem;
+	background-color: #008581;
+	padding: .2rem .3rem;
+}
+.WorkplaceCenter2:nth-of-type(3) .WorkplaceCenter2_dv2{
+	background-color: #462eb2;
+	height: 1.2rem;
+	padding: .2rem .3rem;
+}
+
+
+/*兄弟会学习模式*/
+.learningModel{
+	height: 9.7rem;
+	background-image: url("images/ice_body.png");
+}
+.boxTitle1{
+	color: #0e0846;
+	width: 4.4rem;
+	background-image: url("images/标题背景-蓝色.png");
+}
+.boxTitle2{
+	margin-top: 0;
+	background: rgba(255,0,0,0);
+}
+.learningModelCenter{
+	width: 9.23rem;
+	height: 3.68rem;
+	border-radius: .08rem;
+	margin: auto;
+	margin-top: .38rem;
+	background-color: #fff;
+	box-shadow: 0 0 .29rem rgba(0,0,0,0.12);
+}
+.learningModelCen_left{
+	float: left;
+	width: 4.3em;
+	height: 3.58rem;
+	font-weight: bold;
+}
+.learningModelCen_LP{
+	font-size: .15rem;
+	line-height: .31rem;
+	margin: .31rem .43rem 0;
+	color: #0e0846;
+}
+.learningModelCen_LP p{
+	border-bottom: .01rem solid #0e0846;
+}
+.learningModelCen_LImg1{
+	float: left;
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	margin-left: .25rem;
+	margin-top: .77rem;
+}
+#learningModelCen_LImg1{
+	float: right;
+	width: .44rem;
+	height: .09rem;
+	margin-top: .05rem;
+}
+#learningModelCen_LImg2{
+	float: right;
+	width: .44rem;
+	height: .09rem;
+	margin-top: .05rem;
+}
+.learningModelCen_LDiv{
+	float: left;
+	width: 1.19rem;
+	height: .3rem;
+	padding: .3rem .4rem;
+	color: #fff;
+	font-size: .12rem;
+	margin-left: .15rem;
+	margin-top: .26rem;
+	border-radius: .9rem .9rem .9rem 0;
+	background-color: #071d50;
+}
+.learningModelCen_LDiv2{
+	margin-left: 1rem;
+	color: #071d50;
+	border-radius: .9rem .9rem 0 .9rem ;
+	background-color: #e6e6e6;
+}
+.learningModelCen_LImg2{
+	margin-left: .15rem ;
+}
+.learningModelCen_right{
+	float: left;
+	width: 4.929rem;
+	height: 3.68rem;
+	background-color: #071d50;
+	color: #fff;
+}
+.learningModelCen_RHead{
+	font-size: .16rem;
+	margin: .25rem .6rem;
+}
+.learningModelCen_right li{
+	margin: .1rem .59rem;
+	font-size: .12rem;
+	line-height: .18rem;
+}
+.learningModelCen_Ra{
+	font-size: .12rem;
+	width: 2.46rem;
+	margin-top: .4rem;
+	margin-left: .6rem;
+}
+.learningModelCen_RAdv{
+	height: .27rem;
+	text-align: center;
+	line-height: .27rem;
+	border: 1px solid #13d2cc;
+	border-radius: .27rem;
+	color: #13d2cc;
+}
+.learningModelCen_Ra2{
+	margin-top: .1rem;
+}
+#learningModelCen_right1{
+	display: block;
+}
+#learningModelCen_right2{
+	display: none;
+}
+.learningModelCen_RHead2{
+	margin: .05rem .3rem;
+}
+#learningModelCen_right2 li{
+	margin: .05rem .3rem;
+}
+#learningModelCen_right2 .learningModelCen_Ra{
+	margin-top: .1rem;
+}
+.learningModelCen_RAdv:hover{
+	color: #fff;
+	background-color: #13d2cc;
+}
+
+/*全方位服务你的学习 强势对比*/
+.StrongContrast{
+	width: 14rem;
+	height: 6.8rem;
+	position: relative;
+	background-color: #0e0846;
+}
+.StrongContrast_L{
+	float: left;
+	position: absolute;
+	width: 4rem;
+	margin-left: 2.56rem;
+	top: -2.88rem;
+	background-color: #fff;
+	border-radius: .1rem;
+	padding-bottom: .3rem;
+}
+.StrongContrast_R{
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	width: 4rem;
+	margin-left: 7.44rem;
+	padding-bottom: .3rem;
+	z-index: 3;
+	top: -2.88rem;
+	border-radius: 0 0 .1rem .1rem;
+	background-color: #013db2;
+}
+.StrongContrastTitle{
+	width: 100%;
+	height: .66rem;
+	text-align: center;
+	font-size: .15rem;
+	line-height: .66rem;
+}
+.StrongContrast_L p{
+	font-size: .12rem;
+	margin: .04rem .3rem;
+	line-height: .18rem;
+}
+.StrongContrast_L .StrongContrast_pTitle{
+	font-size: .14rem;
+	font-weight: bold;
+}
+.StrongContrastTitle2{
+	background-color: #0c64bd;
+}
+.StrongContrast_rImg{
+	width: .4rem;
+	height: .2rem;
+	margin: auto;
+	background-color: #0c64bd;
+	border-radius: 0 0 .2rem .2rem;
+}
+.StrongContrast_rImg img{
+	margin-left: .1rem;
+	display: block;
+	width: .18rem;
+	height: .09rem;
+}
+.StrongContrast_RSpan1{
+	float: left;
+	display: inline-block;
+	color: #fff;
+	font-size: .14rem;
+	background-color: #000;
+	line-height: .2rem;
+	margin-left: .3rem;
+	margin-top: .1rem;
+	font-weight: bold;
+	padding: .01rem .06rem;
+}
+.StrongContrast_RSpan2{
+	margin-left: .1rem;
+}
+.StrongContrast_R p{
+	overflow: hidden;
+	line-height: .18rem;
+}
+.StrongContrast_rP{
+	color: #fff;
+	margin: 0 .3rem;
+	font-size: .12rem;
+}
+#learningModelImg{
+	width: 1.2rem;
+	position: relative;
+	z-index: 300;
+	left: 6.4rem;
+	top: .2rem
+}
+#learningModelImg2{
+	width: 2rem;
+	height: 1.7rem;
+	position: relative;
+	top: -.4rem;	
+	left: .6rem;
+}
+#StrongContrastImg{
+	width: 2.13rem;
+	height: 1.38rem;
+	position: absolute;
+	top: 5.4rem;
+	left: 10rem;
+	z-index: 1;
+}
+
+/*通用链接 了解更多/我要报名*/
+.underStandDvFather{
+	width: 14rem;
+}
+.underStandDv{
+	overflow: hidden;
+	width: 4.22rem;
+	margin: auto;
+}
+.underStandDv1{
+	float: left;
+	width: 1.76rem;
+	height: .43rem;
+	line-height: .43rem;
+	text-align: center;
+	font-size: .17rem;
+	color: #fff;
+	margin-top: 1.08rem;
+	margin-bottom: .5rem;
+	border-radius: .215rem;
+	box-shadow: 0 0 10px rgba(22,47,201,0.73);
+	background-image: linear-gradient(90deg, #1d33b5 0%, #04bcb9 100%);
+}
+.underStandDv2{
+	margin-left: .69rem;
+}
+
+/*培养具备真实交付能力的程序员*/
+.Programmer{
+	overflow: hidden;
+	width: 14rem;
+	background-image: url("images/Programmer_background.png");
+	background-size: 100% 100%;
+}
+.ProgrammerTitle{
+	margin-top: 0.46rem;
+}
+.Programmer_center{
+	width: 9.23rem;
+	height: 5.8rem;
+	margin: auto;
+	overflow: hidden;
+}
+.ProgrammerC_div{
+	float: left;
+	width: 1.66rem;
+	margin-left: .232rem;
+}
+.ProgrammerC_div:nth-of-type(1){
+	margin-left: 0;
+	margin-top: 1.2rem;
+}
+.ProgrammerC_div:nth-of-type(2){
+	margin-top: .9rem;
+}
+.ProgrammerC_div:nth-of-type(3){
+	margin-top: .6rem;
+}
+.ProgrammerC_div:nth-of-type(4){
+	margin-top: .3rem;
+}
+.ProgrammerC_div1:nth-of-type(1){
+	margin-left: 0;
+	margin-top: 1.2rem;
+}
+.ProgrammerC_div1:nth-of-type(2){
+	margin-top: .9rem;
+}
+.ProgrammerC_div1:nth-of-type(3){
+	margin-top: .6rem;
+}
+.ProgrammerC_div1:nth-of-type(4){
+	margin-top: .3rem;
+}
+.ProgrammerCD_img{
+	width: 1.22rem;
+	height: 1.22rem;
+	border-radius: 1.22rem;
+	border: .01rem solid #51deda;
+	margin: auto;
+}
+.ProgrammerCD_img img{
+	display: block;
+	width: .83rem;
+	height: .56rem;
+	margin: .33rem .19rem;
+}
+.ProgrammerCD_shadow{
+	width: 1rem;
+	height: .01rem;
+	border-radius: 50%;
+	margin: auto;
+	background-color:transparent;
+	box-shadow: #a8d8e0 0 .08rem .09rem .03rem;
+}
+.ProgrammerCD_Title{
+	color: #0e0846;
+	text-align: center;
+	font-size: .15rem;
+	font-weight: bold;
+	margin: 0.15rem 0.15rem .3rem 0.15rem;
+}
+.ProgrammerCD_p{
+	color: #0e0846;
+	font-size: .12rem;
+	padding: .15rem;
+	background-color: #fff;
+	line-height: .16rem;
+	box-shadow: 0 .03rem .1rem rgba(22,136,201,0.1);
+}
+.ProgrammerCD_p1{
+	margin-top: .15rem;
+	font-weight: bold;
+}
+.ProgrammerC_div1{
+	float: left;
+	width: 1.66rem;
+	margin-left: .232rem;
+}
+.ProgrammerC_div1>.ProgrammerCD_img{
+	border: 0;
+}
+.ProgrammerC_div1>.ProgrammerCD_img>img{
+	width: 100%;
+	height: 67%;
+	margin: 0 0;
+}
+.ProgrammerC_div1>.ProgrammerCD_Title{
+	color: #00D2cc;
+}
+.ProgrammerC_div1>.ProgrammerCD_p{
+	background-color: #fafeff;
+	padding-bottom: .4rem;
+}
+.ProgrammerUnderStandDv .underStandDv1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*六大语言学科融会贯通*/
+.Subject{
+	width: 14rem;
+	height: 13rem;
+	background-color: #f0f4fe;
+	background-image: url("images/Subject_background.png");
+	overflow: hidden;
+	background-size: 100% 100%;
+}
+.SubjectTitle{
+	margin-top: .92rem;
+	background-image: url("images/bg2.png");
+	width: 5rem;
+}
+.Subject_center{
+	width: 8.71rem;
+	height: 4.16rem;
+	overflow: hidden;
+	margin: .4rem auto;
+}
+.SubjectC_dv{
+	float: left;
+	position: relative;
+	width: 2.9rem;
+	height: 2.08rem;
+}
+.SubjectC_dv:hover{
+	background-color: #191259;;
+}
+.SubjectC_dv img{
+	display: block;
+	width: 1.3rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.SubjectunderStandDv .underStandDv1{
+	margin-top: .4rem;
+}
+.SubjectunderStandDv2 .underStandDv1{
+	margin-top: .6rem;
+}
+.SubjectTitle1{
+	margin-top: .3rem;
+}
+.Subject_center2{
+	width: 9.23rem;
+	height: 3rem;
+	margin: auto;
+	margin-top: .38rem;
+}
+.SubjectC2_left{
+	float: left;
+	width: 3.58rem;
+	height: 3rem;
+}
+.SubjectC2_Ldv{
+	overflow: hidden;
+	width: 2.9rem;
+	height: .5rem;
+	border-radius: .07rem;
+	border: 1px solid #13d2cc;
+	color: #13d2cc;
+	font-size: .15rem;
+	font-weight: bold;
+	line-height: .5rem;
+	margin-top: .27rem;
+	position: relative;
+}
+.SubjectC2_Ldv1{
+	overflow: hidden;
+	width: 3.3rem;
+	height: .5rem;
+	border-radius: .07rem;
+	border: 1px solid #13d2cc;
+	background-color: #13d2cc;
+	color: #fff;
+	font-size: .15rem;
+	font-weight: bold;
+	line-height: .5rem;
+	margin-top: .27rem;
+	position: relative;
+}
+.SubjectC2_LImg{
+	display: none;
+	position: absolute;
+	width: .32rem;
+	height: .09rem;
+	float: left;
+	top: .36rem;
+	left: 2.9rem
+}
+.SubjectC2_Ldv1 .SubjectC2_LImg{
+	display: block;
+}
+.SubjectC2_Ldv1 .SubjectC2_LNum{
+	background-color: #fff;
+	margin-left: .57rem;
+	color: #13d2cc;
+}
+.SubjectC2_LNum{
+	float: left;
+	text-align: center;
+	font-size: .18rem;
+	line-height: .27rem;
+	font-weight: bold;
+	color: #0e0846;
+	width: .27rem;
+	height: .27rem;
+	border-radius: .27rem;
+	background-color: #13d2cc;
+	margin: .11rem .15rem 0 .42rem;
+}
+.SubjectC2_Ldv:nth-of-type(1){
+	margin-top: .1rem;
+}
+.SubjectC2_Ldv1:nth-of-type(1){
+	margin-top: .1rem;
+}
+.SubjectC2_right{
+	float: left;
+	width: 5.63rem;
+	height: 2.98rem;
+	border-radius: .07rem;
+	background-color: #191259;
+	border: .01rem solid rgba(19,210,204,0.4);
+}
+.SubjectC2_right p{
+	color: #fff;
+	width: 5.061rem;
+	margin-top: .38rem;
+	margin-left: .38rem;
+	margin-right: .2rem;
+	line-height: .18rem;
+	font-size: .12rem;
+}
+#SubjectC2_dv1{
+	display: block;
+}
+#SubjectC2_dv3{
+	display: none;
+}
+#SubjectC2_dv5{
+	display: none;
+}
+#SubjectC2_dv7{
+	display: none;
+}
+
+/*合作企业*/
+.Enterprise{
+	width: 14rem;
+	height: 4rem;
+	background-color: #0e0846;
+	background-image: url('images/bg1.png');
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.EnterpriseTitle1{
+	width: 3.2rem;
+	background-image: url('images/bg.png');
+	margin-top: 0;
+}
+.EnterpriseTitle2{
+	width: 3rem;
+	background: rgba(255,255,255,0);
+	margin-top: 0;
+}
+.Enterprise_center{
+	overflow: hidden;
+	width: 9.15rem;
+	height: 1.68rem;
+	margin: auto;
+	margin-top: .6rem;
+}
+.EnterpriseC_dv{
+	float: left;
+	width: 1.4rem;
+	height: .46rem;
+	margin: .15rem 0 0 .149rem;
+	background-color: #fff;
+	border-radius: .07rem;
+}
+.EnterpriseC_dv img{
+	display: block;
+	width: 1.2rem;
+	height: .38rem;
+	margin: .03rem .1rem;
+}
+.EnterpriseC_dv1{
+	margin-left: 0
+}
+.EnterpriseC_dv2{
+	margin-top:  0
+}
+.Enterprise p{
+	text-align: center;
+	font-size: .12rem;
+	color:#fff;
+	margin-top: .4rem
+}
+
+/*优惠套餐 超链接*/
+.Discount{
+	width: 14rem;
+	height: .9rem;
+	overflow: hidden;
+	background-image: url('images/bg3.png');
+}
+.Discount_center{
+	width: 1.82rem;
+	height: .24rem;
+	margin: .32rem auto;
+	font-size: .12rem;
+	text-align: center;
+	line-height: .24rem;
+	color: #00c1de;
+	background-color: #fff;
+}
+
+/*底部超链接集合*/
+.Hyperlink{
+	width: 14rem;
+	height: 2rem;
+	overflow: hidden;
+	background-color: #373d41;
+}
+.Hyperlink_center{
+	font-size: .12rem;
+	width: 9.23rem;
+	margin: .4rem auto 0;
+	overflow: hidden;
+}
+.HyperlinkC_dv1{
+	float: left;
+	width: 1.84rem;
+	color: #5d616e;
+}
+.HyperlinkC_dv1 img{
+	display: block;
+	margin: .15rem auto;
+}
+.HyperlinkC_dv1 p{
+	text-align: center;
+}
+.HyperlinkC_dv1_p{
+	color: #00c1de;
+	margin-bottom:.02rem;
+}
+.HyperlinkC_Xian{
+	float: left;
+	width: .01rem;
+	height: 1.35rem;
+	background-color: #5d616e;
+}
+.HyperlinkC_dv2{
+	float: left;
+	margin-left: .42rem;
+}
+.HyperlinkC_dv2 li{
+	list-style: none;
+	color: #5d616e;
+	margin-bottom: .04rem;
+	font-size: .12rem;
+}
+.HyperlinkC_dv2 .HyperlinkC_dv2_li1{
+	font-size: .14rem;
+	color: #fff;
+	margin-bottom: .1rem;
+}
+.HyperlinkC_Xian2{
+	margin-left: .4rem;
+}
+.HyperlinkC_img{
+	float: left;
+	width: 1.02rem;
+	margin:  .1rem 0 0 .28rem
+}
+.HyperlinkC_img img{
+	width: 100%;
+}
+.HyperlinkC_img p{
+	text-align: center;
+	color: #fff;
+	margin-top: .15rem
+}
+/*底部法律信息*/
+.bottom{
+	width: 14rem;
+	height: .31rem;
+	margin: auto;
+	background-color: #282d30;
+	overflow: hidden;
+}
+.bottom_center{
+	overflow: hidden;
+	width: 9rem;
+	height: .31rem;
+	color: #8b8b8b;
+	text-align: center;
+	font-size: .12rem;
+	line-height: .31rem;
+	margin: auto;
+}
+.bottom_Cdv1{
+	height: .31rem;
+	float: left;
+}
+.bottom_Cdv2{
+	height: .31rem;
+	float: left;
+	color:  #8b8b8b;
+}
+.bottom_Cdv2 img{
+	margin: .08rem .1rem;
+	float: left;
+}
